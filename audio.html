@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accessible Video Example</title>
+</head>
+<body>
+	<h1>Accessible Video Example</h1>
+	<video controls alt="Your video description">
+		<source src="your-video-source.mp4" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+	<p>If you cannot see the video, please <a href="your-video-source.mp4">download it here</a>.</p>
+	<track kind="captions" src="your-captions-source.vtt" srclang="en" label="English Captions" default>
+	<div class="sr-only">
+		<p>Textual description of the video</p>
+	</div>
+</body>
+</html>
