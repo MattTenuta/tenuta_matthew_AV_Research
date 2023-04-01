@@ -1,0 +1,66 @@
+.bckgrd {
+    background-color: rgb(74, 74, 74);
+}
+
+.textColour {
+    color: rgb(246, 91, 91);
+}
+
+.img {
+    width: 10em;
+    transition: all .5s ease;
+}
+
+.img:hover {
+    scale: 120%;
+    transition: all .5s ease;
+}
+
+.font {
+    font-family: 'Mulish', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.topPad {
+    padding-top: 5em;
+}
+
+.pFont {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 3em;
+}
+
+/* Style for the audio player */
+#audio-player {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the play button */
+  .play-button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-image: url("/images/play-button.png");
+    background-size: cover;
+  }
+
+  /* For screen reader highlight */
+  ::selection {
+    background-color: yellow;
+    color: black;
+  }
+
+  .highlight {
+  background-color: yellow;
+}
+
+  

@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Document</title>
+    <title>AV Audio Page</title>
 </head>
-<body>
+<body class="main bckgrd">
 
-    <h1>Accessible Video Example</h1>
-	<video controls alt="Your video description">
-		<source src="your-video-source.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
-	<p>If you cannot see the video, please <a href="your-video-source.mp4">download it here</a>.</p>
-	<track kind="captions" src="your-captions-source.vtt" srclang="en" label="English Captions" default>
-	<div class="sr-only">
-		<p>Textual description of the video</p>
-	</div>
+    <h2 class="one-item font textColour center title">Accessible Audio Example</h2>
+
+	<p class="one-item center font pFont textColour"> Click on Mike to play some Audio! </p>
+
+	<a href="#" onclick="toggleAudio()">
+		<img class="one-item" id="play-button" src="/images/wazowski.jpg" alt="Play button">
+	  </a>
+
+	  <p class="one-item center font pFont textColour">  And here are some controls as well for accessability</p>
+	<audio id="audio-player" controls>
+		<source src="/audio/monstersINC.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	  </audio>
     
 </body>
+	<script src="app.js"></script>
+	<script src="screenReader.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </html>
