@@ -1,5 +1,5 @@
 {
-  "name": "routingdemo",
+  "name": "tenuta_matthew_AV_Research",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -8,6 +8,8 @@
   "author": "Matt T",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "vue": "^3.2.47"
   }
 }
