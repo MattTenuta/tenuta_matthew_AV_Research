@@ -6,6 +6,10 @@
     color: rgb(246, 91, 91);
 }
 
+.textColour2 {
+    color: rgb(16, 232, 48);
+}
+
 .img {
     width: 10em;
     transition: all .5s ease;
@@ -28,6 +32,14 @@
     padding-top: 5em;
 }
 
+.botPad {
+    padding-bottom: 20em;
+}
+
+.botPad2 {
+    padding-bottom: 3em;
+}
+
 .pFont {
     font-size: 20px;
 }
@@ -36,11 +48,20 @@
     font-size: 3em;
 }
 
+.title2 {
+    font-size: 2em;
+}
+
+.height {
+    line-height: 10px;
+}
+
 /* Style for the audio player */
 #audio-player {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
+    padding-bottom: 3em;
   }
   
   /* Style for the play button */
@@ -55,12 +76,41 @@
 
   /* For screen reader highlight */
   ::selection {
-    background-color: yellow;
+    background-color: rgb(255, 145, 0);
     color: black;
   }
 
   .highlight {
-  background-color: yellow;
+  background-color: rgb(255, 145, 0);
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  //Video
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+  }
+  
+  video {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
 
   

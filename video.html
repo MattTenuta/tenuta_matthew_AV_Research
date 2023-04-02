@@ -12,15 +12,20 @@
 </head>
 <body class="main bckgrd">
 
-    <h1>Accessible Video Example</h1>
+	<button class="one-item" id="read-button">Read Page using screen reader</button>
+
+	<h2 class="one-item font textColour center title">Accessible Video Example</h2>
+
+	<div class="video-container">
 	<video controls alt="Your video description">
 		<source src="/videos/monstersINC.mp4" type="video/mp4">
 		<track default kind="captions" src="/videos/captions.vtt" srclang="en" label="English Captions">
 	</video>
-	
-	<p>
-		For accessability features added for the video, there is size, CC (Closed Captions),
-	</p>
+	</div>
+
+	<p class="one-item center font pFont textColour botPad2"> For accessability features added for the video, there is size, CC (Closed Captions), as well as a screen reader button at the top of the page </p>
+
+	<a class="botPad" href="/index.html"><button class="one-item" id="read-button">Back to Home Page</button></a>
     
 </body>
 	<script src="app.js"></script>

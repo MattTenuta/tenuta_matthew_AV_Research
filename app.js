@@ -39,3 +39,7 @@ function toggleAudio() {
   }
 }
 
+
+
+//colour blind mode
+
